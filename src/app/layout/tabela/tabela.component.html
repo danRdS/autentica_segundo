@@ -1,0 +1,28 @@
+<div>
+    <ul>
+        <li><b>Nome:</b> {{dadosPerfil.nome | titlecase}}</li>
+        <li><b>E-mail:</b> {{dadosPerfil.email}}</li>
+        <li><b>Bio:</b> {{dadosPerfil.bio}}</li>
+    </ul>
+    <table border="1">
+        <thead align="center">
+            <tr>
+                <th colspan="4">CARROS</th>
+            </tr>
+            <tr>
+                <td class="td-title">ID</td>
+                <td class="td-title">MODELO</td>
+                <td class="td-title">MARCA</td>
+                <td class="td-title">ANO</td>
+            </tr>
+        </thead>
+        <tbody align="center">
+            <tr *ngFor="let carro of carros">
+                <td>{{carro.id}}</td>
+                <td>{{carro.modelo}}</td>
+                <td>{{carro.marca}}</td>
+                <td>{{carro.ano}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

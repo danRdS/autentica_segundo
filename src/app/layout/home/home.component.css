@@ -1,0 +1,19 @@
+header {
+    background-color: #21212a;
+    padding: 1rem;
+    box-shadow: 0 2px 5px #000;
+}
+
+nav {
+    text-align: center;
+}
+
+a {
+    color: aqua;
+    margin: 0 1rem;
+    transition: all .3s ease-in-out;
+}
+
+a:hover {
+    text-shadow: 0 0 5px gold;
+}

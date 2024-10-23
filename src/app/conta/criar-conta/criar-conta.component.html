@@ -1,0 +1,21 @@
+<div class="container">
+    <h2>{{'criar conta' | uppercase}}</h2>
+    <form action="" (submit)="onSubmit()" #form="ngForm">
+        <div class="campo-form">
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome" [(ngModel)]="conta.nome" required>
+        </div>
+        <div class="campo-form">
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" id="email" [(ngModel)]="conta.email" required>
+        </div>
+        <div class="campo-form">
+            <label for="senha">Senha: </label>
+            <input type="password" name="senha" id="senha" [(ngModel)]="conta.senha" required>
+        </div>
+        <div class="area-btns">
+            <button type="submit" [disabled]="form.invalid">Salvar</button>
+            <button type="button" [routerLink]="['/login']">Voltar</button>
+        </div>
+    </form>
+</div>

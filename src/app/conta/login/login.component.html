@@ -1,0 +1,13 @@
+<div class="container">
+    <h1>{{"Acessar" | uppercase}}</h1>
+    <form action="" (submit)="onSubmit()" #form="ngForm">
+        <label for="email">E-mail:</label>
+        <input type="text" name="email" id="email" [(ngModel)]="login.email" required />
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha" [(ngModel)]="login.senha" required />
+        <div class="area-btns">
+            <button type="submit" [disabled]="form.invalid">Acessar</button>
+            <button type="button" [routerLink]="['/cadastrar-conta']">Criar conta</button>
+        </div>
+    </form>
+</div>

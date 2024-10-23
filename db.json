@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "Joquebede",
+      "email": "joquebedehebreia@email.com",
+      "senha": "1234"
+    },
+    {
+      "id": 2,
+      "nome": "Moshé",
+      "senha": "8080",
+      "email": "mosheprofeta@email.com"
+    },
+    {
+      "id": 3,
+      "nome": "jode",
+      "email": "jode@email.com",
+      "senha": "4545"
+    }
+  ],
+  "perfis": [
+    {
+      "id": 1,
+      "nome": "Joquebede",
+      "email": "joquebedehebreia@email.com",
+      "bio": "Essa é a biografia de Joquebede"
+    }
+  ]
+}

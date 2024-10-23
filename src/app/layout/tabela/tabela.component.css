@@ -1,0 +1,25 @@
+ul {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: auto;
+    border-color: rebeccapurple;
+}
+
+th {
+    background-color: rebeccapurple;
+    font-size: 1.2rem;
+    padding: .5rem;
+}
+
+td {
+    background-color: rgb(71, 71, 98);
+    padding: .3rem 1rem;
+}
+
+.td-title {
+    background-color: blueviolet;
+}
